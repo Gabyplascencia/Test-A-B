@@ -1,47 +1,28 @@
-# Test-A-B
-Para este trabajo se analizarán los resultados de una prueba A/B para la toma correcta de decisiones basadas en ambos grupos y los beneficios para la empresa.
+# Online sales and A/B testing to increase sales.
+For this paper, the results of an A/B test will be analyzed to ensure accurate decision-making based on both groups and the benefits for the company.
 
-# Descripción del proyecto
+## 🏁Objetive
+Determine which of the hypotheses proposed by the marketing team will have the greatest impact on the business and evaluate an A/B test for changes to the digital page.
 
-Contexto
-Eres analista en una gran tienda online. Junto con el departamento de marketing has recopilado una lista de hipótesis que pueden ayudar a aumentar los ingresos.
+## 🖥Technologies used
+- **Python**: Pandas, numpy, seabron, matplotlib, scipy
+- **Jupyter Notebook**: Interactive environment for analysis.
+- **CSV Dataset**: Contains user behavior data.
 
-Tienes que priorizar estas hipótesis, lanzar un test A/B y analizar los resultados.
+## 🔑Key Steps
+1. **Data Description**:
+   - Assessed the quality of the dataset and summarized its structure.
+2. **Data Preprocessing**:
+    - Handled missing values, corrected formatting issues, and removed duplicates.
+3. **Prioritize hypotheses**:
+  - Evaluate all the hypotheses to be created in the company and choose those with the greatest impact.
+4. **A/B Test**:
+   - Conduct a test to analyze whether it will have an impact on increasing sales.
 
-Parte 1. Priorizar hipótesis
+## 🥇🏆Results
+The analysis confirms that:
+- Using RICE, we conclude that hypothesis number 7: Add a subscription form to all main pages. This will have better results with customers.
+- The graphs do not yet show a stabilization period for our group purchases.
+- Group B has much better sales results.
+- -Neither the raw nor the filtered data revealed statistically significant differences in conversion between the groups.
 
-El archivo hypotheses_us.csv contiene nueve hipótesis sobre cómo aumentar los ingresos de una tienda online con Reach, Impact, Confidence y Effort especificados para cada una.
-
-El ejercicio consiste en:
-
-Aplicar el framework ICE para priorizar hipótesis. Ordenarlas en orden descendente de prioridad.
-Aplicar el framework RICE para priorizar hipótesis. Ordenarlas en orden descendente de prioridad.
-Mostrar cómo cambia la priorización de hipótesis cuando utilizas RICE en lugar de ICE. Proporcionar una explicación de los cambios.
-
-Parte 2. Análisis del test A/B
-
-Realizaste una prueba A/B y obtuviste los resultados descritos en los archivos orders_us.csv y visits_us.csv.
-
-Ejercicio
-
-Analiza el test A/B:
-
-Representa gráficamente el ingreso acumulado por grupo. Haz conclusiones y conjeturas.
-Representa gráficamente el tamaño de pedido promedio acumulado por grupo. Haz conclusiones y conjeturas.
-Representa gráficamente la diferencia relativa en el tamaño de pedido promedio acumulado para el grupo B en comparación con el grupo A. Haz conclusiones y conjeturas.
-Calcula la tasa de conversión de cada grupo como la relación entre los pedidos y el número de visitas de cada día. Representa gráficamente las tasas de conversión diarias de los dos grupos y describe la diferencia. Saca conclusiones y haz conjeturas.
-Traza un gráfico de dispersión del número de pedidos por usuario. Haz conclusiones y conjeturas.
-Calcula los percentiles 95 y 99 del número de pedidos por usuario. Define el punto en el cual un punto de datos se convierte en una anomalía.
-Traza un gráfico de dispersión de los precios de los pedidos. Haz conclusiones y conjeturas.
-Calcula los percentiles 95 y 99 de los precios de los pedidos. Define el punto en el cual un punto de datos se convierte en una anomalía.
-Encuentra la significancia estadística de la diferencia en la conversión entre los grupos utilizando los datos en bruto. Haz conclusiones y conjeturas.
-Encuentra la significancia estadística de la diferencia en el tamaño promedio de pedido entre los grupos utilizando los datos en bruto. Haz conclusiones y conjeturas.
-Encuentra la significancia estadística de la diferencia en la conversión entre los grupos utilizando los datos filtrados. Haz conclusiones y conjeturas.
-Encuentra la significancia estadística de la diferencia en el tamaño promedio de pedido entre los grupos utilizando los datos filtrados. Haz conclusiones y conjeturas.
-
-# Toma una decisión basada en los resultados de la prueba. 
-
-Las decisiones posibles son: 
-1. Parar la prueba, considerar a uno de los grupos como líder. 
-2. Parar la prueba, concluir que no hay diferencia entre los grupos. 
-3. Continuar la prueba.
